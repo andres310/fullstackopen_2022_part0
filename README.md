@@ -22,7 +22,7 @@ browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: data.json
 ```
 # Part 0 - exercise 0.6
-````mermaid
+```mermaid
 sequenceDiagram
 browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 ```
